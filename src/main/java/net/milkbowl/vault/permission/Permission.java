@@ -15,7 +15,6 @@
  */
 package net.milkbowl.vault.permission;
 
-import java.util.logging.Logger;
 
 import org.bukkit.OfflinePlayer;
 import org.bukkit.World;
@@ -31,7 +30,6 @@ import org.bukkit.plugin.Plugin;
  */
 public abstract class Permission {
 
-	protected static final Logger log = Logger.getLogger("Minecraft");
     protected Plugin plugin = null;
 
     /**
